@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@nestjs/passport": "^10.0.3",
+    "firebase-admin": "^13.0.1",
+    "passport": "^0.7.0",
+    "passport-kakao": "^1.0.1"
+  }
+}
