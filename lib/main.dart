@@ -8,8 +8,8 @@ import 'package:chatapp/screens/chatting_screen.dart';
 
 void main() async {
   KakaoSdk.init(
-    nativeAppKey: '58ad220ee044fa0abfd0df56f7545b71',
-    javaScriptAppKey: '415518cc7103a085e009ff7ce58d0262',
+    nativeAppKey: '',
+    javaScriptAppKey: '',
   ); // Kakao SDK 초기화
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
